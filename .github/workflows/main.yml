@@ -1,0 +1,10 @@
+on: [push]
+
+jobs:
+  prime_job:
+    runs-on: ubuntu-latest
+    name: To verify the prime
+    steps:
+    - name: prime action step
+      id: hello
+      uses: actions/PracPrime@v1
