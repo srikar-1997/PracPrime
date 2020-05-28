@@ -1,3 +1,6 @@
+const core = require('@actions/core');
+const github = require('@actions/github');
+
 try {
     function isPrime(n) {
         if (n === 1) {
