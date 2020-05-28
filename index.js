@@ -1,6 +1,3 @@
-const core = require('@actions/core');
-
-try {
     function isPrime(n) {
         if (n === 1) {
             return false;
@@ -19,9 +16,6 @@ try {
             return true;
         }
     }
-} catch (error) {
-    core.setFailed(error.message);
-}
 var assert = require('assert')
 
 assert(isPrime(5), " test case 1 pass - isPrime(5)");
