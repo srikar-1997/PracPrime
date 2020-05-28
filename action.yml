@@ -1,0 +1,4 @@
+name: 'checking prime'
+runs:
+  using: 'node12'
+  main: 'index.js'
